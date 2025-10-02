@@ -45,13 +45,13 @@ from rocketpy import Rocket, NoseCone, Fins, Parachute
 
 # Cria o objeto Foguete
 falcon6 = Rocket(
-    radius=...,                # Descrição: Raio externo do foguete. (Responsável: Estruturas e Aerodinâmica)
-    mass=...,                  # Descrição: Massa total do foguete sem motor. (Responsável: Estruturas e Aerodinâmica)
+    radius=...,       39,5mm      # Descrição: Raio externo do foguete. (Responsável: Estruturas e Aerodinâmica)
+    mass=...,         2670g  (com o motor 4262g)       # Descrição: Massa total do foguete sem motor. (Responsável: Estruturas e Aerodinâmica)
     inertia=...,               # Descrição: Momentos de inércia do foguete. (Tupla (Ixx, Iyy, Izz) em kg*m^2). (Responsável: Estruturas e Aerodinâmica)
     power_off_drag=...,        # Descrição: Curva de arrasto com motor desligado. (Arquivo .csv). (Responsável: Estruturas e Aerodinâmica)
     power_on_drag=...,         # Descrição: Curva de arrasto com motor ligado. (Arquivo .csv). (Responsável: Estruturas e Aerodinâmica)
-    center_of_mass_without_motor=..., # Descrição: Centro de massa do foguete sem o motor. (Responsável: Estruturas e Aerodinâmica)
-    center_of_dry_mass=...     # Descrição: Centro de massa do foguete vazio. (Responsável: Estruturas e Aerodinâmica)
+    center_of_mass_without_motor=..., 79,6cm (com o motor 95,1cm)# Descrição: Centro de massa do foguete sem o motor. (Responsável: Estruturas e Aerodinâmica)
+    center_of_dry_mass=...    85,2cm # Descrição: Centro de massa do foguete vazio. (Responsável: Estruturas e Aerodinâmica)
 )
 
 # Adiciona o motor ao foguete
